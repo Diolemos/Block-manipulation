@@ -1,4 +1,6 @@
 let block = document.getElementById("block");
+let scaleCoef = 1;
+let rotateDeg = 0;
 
 // Position Y manipulation
 
@@ -21,7 +23,8 @@ posX.addEventListener('input', function () {
 let size = document.getElementById('size');
 
 size.addEventListener('input', function () {
-    block.style.transform = `scale(${size.value})`
+    scaleCoef = size.value
+    block.style.transform = `scale(${scaleCoef}) rotate(${rotateDeg})`
 })
 
 //opacity manipulation
@@ -29,4 +32,23 @@ size.addEventListener('input', function () {
 let opacity = document.getElementById('opacity');
 opacity.addEventListener('input', function () {
     block.style.opacity = opacity.value;
+})
+
+// shape manipulation
+
+let shape = document.getElementById('shape-select');
+let okBtn = document.getElementById('btn-shape')
+
+okBtn.addEventListener('click', function () {
+    let option = shape.value;
+    if (option === '1') {
+        block.style.borderRadius = "0";
+        rotateDeg = 0;
+        block.style.transform = `scale(${scaleCoef}) rotate(${rotateDeg})`
+
+    } else if (option === '2') {
+
+    } else if (option === '3') {
+
+    }
 })

@@ -95,3 +95,19 @@ h3{
 
 .rgba-container input{
         width: 80px;
+
+}
+        /* This changes the block */
+
+        #block{
+            width: 150px;
+            height: 150px;
+            background: #000;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .block-container{
+            margin-top: 20px;
+            position: relative;
+        }

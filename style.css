@@ -13,3 +13,7 @@
     vertical-align: top;
 }
 
+.vertical input{
+    transform: rotate(90deg);
+}
+

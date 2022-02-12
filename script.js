@@ -55,3 +55,12 @@ okBtn.addEventListener('click', function () {
         block.style.transform = `scale(${scaleCoef}) rotate(${rotateDeg})`
     }
 })
+
+//hex manipulation
+
+let hex = document.getElementById('hex');
+hex.addEventListener('keyup', function (event) {
+    if (event.key === 'Enter') {
+        block.style.background = `#${hex.value}`
+    }
+})

@@ -47,8 +47,11 @@ okBtn.addEventListener('click', function () {
         block.style.transform = `scale(${scaleCoef}) rotate(${rotateDeg})`
 
     } else if (option === '2') {
-
+        block.style.borderRadius = "50%"
+        block.style.transform = `scale(${scaleCoef}) rotate(${rotateDeg})`
     } else if (option === '3') {
-
+        block.style.borderRadius = "0"
+        rotateDeg = 45 + "deg";
+        block.style.transform = `scale(${scaleCoef}) rotate(${rotateDeg})`
     }
 })

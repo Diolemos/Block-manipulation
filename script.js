@@ -64,3 +64,18 @@ hex.addEventListener('keyup', function (event) {
         block.style.background = `#${hex.value}`
     }
 })
+
+// RGBA manipulation
+
+let rgbaR = document.getElementById("r");
+let rgbaG = document.getElementById("g");
+let rgbaB = document.getElementById("b");
+let rgbaA = document.getElementById("a");
+
+let rgbaInputs = document.querySelectorAll(".rgba-container input");
+
+rgbaInputs.forEach(function (element) {
+    element.addEventListener('input', function () {
+        block.style.background = `rgba(${rgbaR.value},${rgbaG.value},${rgbaB.value},${rgbaA.value})`
+    })
+})

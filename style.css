@@ -57,3 +57,16 @@ h3{
     display: flex;
     justify-content: space-between;
 }
+
+/* This modifies the shape selection panel */
+
+.center{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btn-shape{
+    margin-top: 10px;
+}

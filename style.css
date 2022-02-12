@@ -70,3 +70,23 @@ h3{
 #btn-shape{
     margin-top: 10px;
 }
+
+/* this changes the hex panel */
+
+.hex-container{
+    
+    width: 100px;
+    margin: 40px auto 0;
+}
+#hex{
+    width: 80px;
+}
+
+/* This changes the RGBA panel */
+.rgba-container{
+    margin: 0 auto;
+    width: 100px;
+}
+
+.rgba-container input{
+        width: 80px;

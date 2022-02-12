@@ -23,3 +23,10 @@ let size = document.getElementById('size');
 size.addEventListener('input', function () {
     block.style.transform = `scale(${size.value})`
 })
+
+//opacity manipulation
+
+let opacity = document.getElementById('opacity');
+opacity.addEventListener('input', function () {
+    block.style.opacity = opacity.value;
+})

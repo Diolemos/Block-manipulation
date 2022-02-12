@@ -15,3 +15,11 @@ let posX = document.getElementById('pos-x');
 posX.addEventListener('input', function () {
     block.style.left = posX.value + "px";
 })
+
+//size manipulation
+
+let size = document.getElementById('size');
+
+size.addEventListener('input', function () {
+    block.style.transform = `scale(${size.value})`
+})

@@ -1,0 +1,15 @@
+.control-panel{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+
+    background-image: url("images/metal.jpg");
+    background-size:150px 150px;
+    background-repeat: no-repeat;
+
+    border-radius: 10px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+

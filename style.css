@@ -18,6 +18,8 @@ h3{
     text-align: center;
 }
 
+        /* style for Position Y */
+
 .vertical input{
     transform: rotate(90deg);
     width: 75px;
@@ -39,4 +41,19 @@ h3{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+}
+
+   /* This changes POsition x, size and opacity's input */
+  
+.horizontal{
+    width:100px ;
+    margin: 0 auto;
+}
+.horizontal input{
+    width: 100px;
+}
+.horizontal label{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
 }
